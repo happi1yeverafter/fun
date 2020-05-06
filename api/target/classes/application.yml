@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: jjong
+    password: jjong
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=UTC
+  jpa:
+    show-sql: true
+
+graphql:
+  spqr:
+    relay:
+      connection-check-relaxed: true
+    gui:
+      enabled: true
+
+logging:
+  level:
+    org:
+      hibernate: debug

@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "path-autocomplete.pathMappings": {
+    "@": "${folder}/src"
+  },
+  "path-autocomplete.ignoredFilesPattern": "./node_modules/**/*",
+  "path-autocomplete.extensionOnImport": true
+}
